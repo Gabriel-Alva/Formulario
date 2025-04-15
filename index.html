@@ -1,0 +1,78 @@
+
+<html>
+<head>
+
+<title>Mi primer formulario</title>
+
+</head>
+<body style="text-align: center;background-color: bisque;" >
+    <header style="width: 100%;background-color:#7c3b1a; padding: 20px;color: white ; margin: 0%;">
+        <h2>Bienvenido a mi primer formulario</h2>
+     </header>
+    <h1>Formulario  de Pedido</h1>
+    <img src="cafe.jpg" width="300">
+      
+   
+    <form action="">
+        <h2>Datos del Usuario</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br>
+    <label for="Telefono">Telefono:</label>
+    <input type="number" required><br>
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" required><br>
+    <label for="Direccion">Direccion de Entrega:</label>
+    <input type="text" required><br>
+    <h2>Seleccione una opcion</h2>
+    <label for="Para llevar">Para llevar:</label>
+    <input type="radio">
+    <label for="Para Consumir">Para Consumir:</label>
+    <input type="radio">
+    <label for="Delivery">Delivery:</label>
+    <input type="radio"><br>
+    <h2>Selecion de Productos</h2>
+    <table border="1" style="text-align: center; " align="center">
+     <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio Unitario</th>
+            
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>Cafe Americano</td>
+            <td>2.50</td>
+        </tr>
+        <tr>
+            <td>Cafe Latte</td>
+            <td>3.50</td>
+        </tr>
+        <td>Capuchino</td>
+        <td>2.00</td>
+        <tr>  
+
+       
+     </tbody>
+
+    </table>
+
+    <label for="Bebida">   Bebida:</label>
+    <select id="Bebida"><br>
+    <option>Cafe Americano</option>
+    <option>Cafe Latte</option>
+    <option>Capuchino</option>
+    <label for="Genero">Genero</label>
+
+    </select>
+<button type="submit" style="background-color: #7c3b1a;color: white;">Enviar</button>
+    </form>   
+</body>
+<footer style="background-color: #7c3b1a; width: 100%; height: 100px; margin: 0%;">
+    <p style="color: azure;">    
+        📞 Telefono: 972 428 235 |
+        ✉️ Email: desconocido 
+        2025 
+    </p>
+</footer>
+</html>
